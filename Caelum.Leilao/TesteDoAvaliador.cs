@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+using NUnit.Framework;
 
 namespace Caelum.Leilao
 {
+    [TestFixture]
     public class TesteDoAvaliador
     {
-        static void Main(String[] args)
+        [Test]
+        public void Main()
         {
             // 1a parte: Cenario
             Usuario joao = new Usuario("João");
@@ -17,9 +17,9 @@ namespace Caelum.Leilao
 
             Leilao leilao = new Leilao("Playstation 3 Novo");
 
-            leilao.Propoe(new Lance(maria, 250.0));
             leilao.Propoe(new Lance(joao, 300.0));
             leilao.Propoe(new Lance(jose, 400.0));
+            leilao.Propoe(new Lance(maria, 250.0));
 
             // 2a parte: Acao
             Avaliador leiloeiro = new Avaliador();
@@ -29,10 +29,8 @@ namespace Caelum.Leilao
             double maiorEsperado = 400;
             double menorEsperado = 250;
 
-            Console.WriteLine(maiorEsperado == leiloeiro.MaiorLance);
-            Console.WriteLine(menorEsperado == leiloeiro.MenorLance);
-
-            Console.ReadKey();
+            Assert.AreEqual(maiorEsperado, leiloeiro.MaiorLance);
+            Assert.AreEqual(menorEsperado, leiloeiro.MenorLance);
         }
     }
 }
