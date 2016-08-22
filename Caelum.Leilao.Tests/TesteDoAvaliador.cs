@@ -1,8 +1,6 @@
-﻿using System;
+﻿using NUnit.Framework;
 
-using NUnit.Framework;
-
-namespace Caelum.Leilao.Teste
+namespace Caelum.Leilao
 {
     [TestFixture]
     public class TesteDoAvaliador
