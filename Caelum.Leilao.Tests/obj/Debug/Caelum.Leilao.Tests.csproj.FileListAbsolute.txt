@@ -1,0 +1,9 @@
+C:\Users\Túlio Filho\Documents\GitHub\Estudos\Teste\Caelum.Leilao\Caelum.Leilao.Tests\bin\Debug\Caelum.Leilao.Tests.dll
+C:\Users\Túlio Filho\Documents\GitHub\Estudos\Teste\Caelum.Leilao\Caelum.Leilao.Tests\bin\Debug\Caelum.Leilao.Tests.pdb
+C:\Users\Túlio Filho\Documents\GitHub\Estudos\Teste\Caelum.Leilao\Caelum.Leilao.Tests\bin\Debug\Caelum.Leilao.exe
+C:\Users\Túlio Filho\Documents\GitHub\Estudos\Teste\Caelum.Leilao\Caelum.Leilao.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Túlio Filho\Documents\GitHub\Estudos\Teste\Caelum.Leilao\Caelum.Leilao.Tests\bin\Debug\Caelum.Leilao.pdb
+C:\Users\Túlio Filho\Documents\GitHub\Estudos\Teste\Caelum.Leilao\Caelum.Leilao.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Túlio Filho\Documents\GitHub\Estudos\Teste\Caelum.Leilao\Caelum.Leilao.Tests\obj\Debug\Caelum.Leilao.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Túlio Filho\Documents\GitHub\Estudos\Teste\Caelum.Leilao\Caelum.Leilao.Tests\obj\Debug\Caelum.Leilao.Tests.dll
+C:\Users\Túlio Filho\Documents\GitHub\Estudos\Teste\Caelum.Leilao\Caelum.Leilao.Tests\obj\Debug\Caelum.Leilao.Tests.pdb

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Caelum.Leilao
 {
-    public class TesteDoAvaliador
+    public class UsoDoAvaliador
     {
         static void Main(String[] args)
         {
