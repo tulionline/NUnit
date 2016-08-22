@@ -1,14 +1,11 @@
-﻿using NUnit.Framework;
+﻿using System;
 
 namespace Caelum.Leilao
 {
-    [TestFixture]
-    public class TesteDoAvaliador
+    public class UsoDoAvaliador
     {
-        [Test]
-        public void Main()
+        static void Main(String[] args)
         {
-            // 1a parte: Cenario
             Usuario joao = new Usuario("João");
             Usuario jose = new Usuario("José");
             Usuario maria = new Usuario("Mária");
@@ -19,16 +16,13 @@ namespace Caelum.Leilao
             leilao.Propoe(new Lance(jose, 400.0));
             leilao.Propoe(new Lance(maria, 250.0));
 
-            // 2a parte: Acao
             Avaliador leiloeiro = new Avaliador();
             leiloeiro.Avalia(leilao);
 
-            // 3a parte: validacao
-            double maiorEsperado = 400;
-            double menorEsperado = 250;
+            Console.WriteLine(leiloeiro.MaiorLance);
+            Console.WriteLine(leiloeiro.MenorLance);
 
-            Assert.AreEqual(maiorEsperado, leiloeiro.MaiorLance);
-            Assert.AreEqual(menorEsperado, leiloeiro.MenorLance);
+            Console.ReadKey();
         }
     }
 }
